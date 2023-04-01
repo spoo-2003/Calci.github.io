@@ -1,0 +1,106 @@
+body {
+  margin: auto;
+  padding: auto;
+  height: 100vh;
+  background: linear-gradient(45deg, pink, rgb(231, 103, 103));
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: rgb(104, 73, 73);
+  font-family: cursive;
+}
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(104, 73, 73);
+}
+.status {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(104, 73, 73);
+}
+
+.inputs {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 50%;
+}
+
+.Name1 {
+  width: 300px;
+  height: 35px;
+  border: none;
+  background-color: rgb(231, 103, 103, 0.4);
+  color: rgb(104, 73, 73);
+  border-radius: 5px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline;
+}
+
+.Name1:hover {
+  width: 320px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.Name2 {
+  width: 300px;
+  height: 35px;
+  border: none;
+  background-color: rgb(231, 103, 103, 0.4);
+  color: rgb(104, 73, 73);
+  border-radius: 5px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline;
+}
+
+.Name2:hover {
+  width: 320px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.button {
+  width: 150px;
+  height: 35px;
+  display: inline;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(231, 103, 103, 0.4);
+  color: rgb(104, 73, 73);
+  font-weight: bolder;
+  font-family: cursive;
+  font-size: 20px;
+}
+.Enter {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-top: 50px;
+  left: 50%;
+}
+.button:hover {
+  width: 180px;
+  height: 40px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.footer {
+  color: rgb(104, 73, 73);
+  font-family: cursive;
+  position: relative;
+  left: 70%;
+  top: 60%;
+}
